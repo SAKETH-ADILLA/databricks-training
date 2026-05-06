@@ -160,6 +160,42 @@ SELECT d.*, e.name
 FROM Department d
 LEFT JOIN Employee e ON d.department_id = e.department_id;
 
+-- 41
+SELECT e.*
+FROM Employee e
+LEFT JOIN Project p ON e.department_id = p.department_id
+WHERE p.project_id IS NULL;
+
+-- 42
+SELECT e.name, COUNT(p.project_id) AS project_count
+FROM Employee e
+JOIN Project p ON e.department_id = p.department_id
+GROUP BY e.name;
+
+-- 43
+SELECT d.*
+FROM Department d
+LEFT JOIN Employee e ON d.department_id = e.department_id
+WHERE e.emp_id IS NULL;
+
+-- 44
+SELECT name
+FROM Employee
+WHERE department_id = (
+    SELECT department_id 
+    FROM Employee 
+    WHERE name = 'John Doe'
+)
+AND name != 'John Doe';
+
+-- 45
+SELECT d.name
+FROM Department d
+JOIN Employee e ON d.department_id = e.department_id
+GROUP BY d.name
+ORDER BY AVG(e.salary) DESC
+LIMIT 1;
+
 -- 46
 SELECT * FROM Employee
 WHERE salary = (SELECT MAX(salary) FROM Employee);
