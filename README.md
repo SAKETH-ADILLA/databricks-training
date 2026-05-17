@@ -1,98 +1,129 @@
-<h1 align="center">🚀 Databricks Training</h1>
-<h3 align="center">by Saketh Adilla</h3>
+# 🚀 Databricks SQL Training Repository
 
-<p align="center">
-  <b>SQL • Data Engineering</b>
-</p>
+## 📌 Overview
 
-<hr>
+This repository documents my hands-on SQL learning journey as part of my Databricks Data Engineering training.
 
-<h2>📌 About</h2>
-<p>
-This repository contains my hands-on learning and practice from <b>Databricks Data Engineering Training</b>.
-It is structured in a <b>week-wise and day-wise format</b> to ensure consistent progress and proper documentation.
-</p>
+The goal of this repository is to build strong SQL fundamentals step by step through structured daily practice using MySQL.
 
-<ul>
-  <li>SQL query practice</li>
-  <li>Data analysis fundamentals</li>
-  <li>Analytical problem solving</li>
-</ul>
+Instead of randomly solving queries, this repository is organized day-wise to track progress clearly and maintain proper documentation of learning.
 
-<hr>
+It covers everything from basic SQL queries to advanced JOINS, subqueries, and real-world problem solving.
 
-<h2>📅 Weekly Plan</h2>
+---
 
-<h3>🔹 Week 1 – SQL Fundamentals</h3>
-<ul>
-  <li>Day 1: SQL Basics Practice (Phase 0)</li>
-</ul>
+## 📂 Repository Structure
 
-<hr>
+```text
+databricks-training/
+│
+├── day-01/
+│   ├── queries.sql
+│   ├── README.md
+│
+├── day-02/
+│   ├── queries.sql
+│   ├── README.md
+│
+├── README.md
+```
 
-<h2>📊 Week0 (Foundation Phases)</h2>
+---
 
-<ul>
-  <li><b>Phase0:</b> SQL fundamentals and basic query practice</li>
-</ul>
+## 📚 Learning Progress
 
-<hr>
+---
 
-<h3>📌 Phase0: SQL Practice Overview</h3>
+## Day 1 — SQL Fundamentals
 
-<ul>
-  <li>Basic SQL queries (SELECT, WHERE, ORDER BY)</li>
-  <li>Filtering and sorting data</li>
-  <li>Aggregate functions (COUNT, SUM, AVG, MIN, MAX)</li>
-  <li>String pattern matching using LIKE</li>
-  <li>Date-based filtering</li>
-</ul>
+### Topics Covered
 
-<hr>
+* Basic SELECT queries
+* WHERE clause filtering
+* LIKE operator
+* Date functions
+* Aggregate functions
+* GROUP BY
+* HAVING clause
+* ORDER BY
 
-<h3>🧠 Skills Gained</h3>
+### Skills Practiced
 
-<ul>
-  <li>Writing basic SQL queries</li>
-  <li>Filtering and extracting data</li>
-  <li>Understanding relational tables</li>
-  <li>Performing basic data analysis</li>
-</ul>
+* Data retrieval
+* Filtering records
+* Department-wise analysis
+* Salary calculations
+* Sorting and grouping data
 
-<hr>
+---
 
-<hr>
+## Day 2 — JOINS + Subqueries + Advanced SQL
 
-<h2>🛠️ Tools & Technologies</h2>
-<ul>
-  <li><b>Databricks</b> – Data processing platform</li>
-  <li><b>DB-Fiddle</b> – SQL practice environment</li>
-  <li><b>SQL</b> – Query language</li>
-  <li><b>Git & GitHub</b> – Version control</li>
-</ul>
+### Topics Covered
 
-<hr>
+* INNER JOIN
+* LEFT JOIN
+* RIGHT JOIN
+* Nested Queries
+* Subqueries
+* Salary-based problems
+* Department analysis
+* Project analysis
 
-<h2>🚀 Getting Started</h2>
-<ol>
-  <li>Clone or download this repository</li>
-  <li>Navigate to <b>Week1 → Day1</b></li>
-  <li>Run SQL queries in DB-Fiddle</li>
-  <li>Check outputs in the output folder</li>
-</ol>
+### Skills Practiced
 
-<hr>
+* Multi-table relationships
+* Real-world JOIN problems
+* Advanced salary queries
+* Department and project analysis
+* Interview-level SQL problem solving
 
-<h2>📊 Progress Overview</h2>
-<ul>
-  <li>✅ <b>Week 1:</b> SQL Basics (Phase 0 Completed)</li>
-</ul>
+---
 
-<hr>
+## 🛠 Technologies Used
 
-<h2>👤 Author</h2>
-<p>
-<b>Saketh Adilla</b><br>
-B.Tech Computer Science Engineering<br>
-Aspiring Data Engineer
-</p>
+* MySQL 5.7
+* SQL
+* Git
+* GitHub
+* Databricks Learning Practice
+
+---
+
+## 🎯 Main Objective
+
+The purpose of this repository is to:
+
+* Strengthen SQL problem-solving skills
+* Build strong database fundamentals
+* Prepare for Data Engineering roles
+* Improve interview-level SQL thinking
+* Maintain professional GitHub project documentation
+
+This is practice-based learning with discipline, not just theory.
+
+---
+
+## 🔥 Progress Tracker
+
+### Completed
+
+✔ Day 1 — SQL Fundamentals
+✔ Day 2 — JOINS + Advanced SQL
+
+
+---
+
+## 👨‍💻 Author
+
+**Saketh Adilla**
+B.Tech CSE Student
+Focused on SQL | Databricks | Data Engineering | Backend Development
+
+---
+
+## ⭐ Final Note
+
+This repository represents consistent learning, structured practice, and practical SQL problem solving.
+
+The focus is not on quantity of queries, but on understanding how SQL is used to solve real business problems.
